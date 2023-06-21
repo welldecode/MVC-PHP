@@ -1,0 +1,29 @@
+{
+    "name": "welli/devstep",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "library\\": "library/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Wellington henrique"
+        }
+    ],
+    "require": { 
+      "league/plates": "^3.5",
+      "vlucas/phpdotenv": "^5.5",
+        "guzzlehttp/guzzle": "^7.5",
+        "ramsey/uuid": "^4.3",
+        "ps/image-optimizer": "^2.0",
+        "calcinai/php-imagick": "^0.1.2",
+        "firebase/php-jwt": "^6.5",
+        "cocur/slugify": "^4.3" 
+    }
+    ,"config": {
+        "platform":{
+          "ext-imagick": "3.4.4"
+          }
+      }
+}
